@@ -4,10 +4,9 @@ import javax.swing.event.AncestorListener;
 
 public class GamePanel extends JPanel implements AncestorListener{
 
-    GamePanel()[
-        
-    ]
-}
+    GamePanel(){
+
+    }
 
     @Override
     public void ancestorAdded(AncestorEvent event) {
@@ -26,3 +25,5 @@ public class GamePanel extends JPanel implements AncestorListener{
         // TODO Auto-generated method stub
         
     }
+}
+
