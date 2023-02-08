@@ -18,8 +18,8 @@ public class  GamePanel extends JPanel implements AncestorListener{
     int applesEaten;
     int appleX;
     int appleY;
-    
 
+    
 
 
     GamePanel(){
@@ -48,16 +48,22 @@ public class  GamePanel extends JPanel implements AncestorListener{
     }
     @Override
     public void ancestorAdded(AncestorEvent event) {
-        // TODO Auto-generated method stub
+        // TODO #1 Auto-generated method stub
         
     }
 
+    /* (non-Javadoc)
+     * @see javax.swing.event.AncestorListener#ancestorRemoved(javax.swing.event.AncestorEvent)
+     */
     @Override
     public void ancestorRemoved(AncestorEvent event) {
         // TODO Auto-generated method stub
         
     }
 
+    /* (non-Javadoc)
+     * @see javax.swing.event.AncestorListener#ancestorMoved(javax.swing.event.AncestorEvent)
+     */
     @Override
     public void ancestorMoved(AncestorEvent event) {
         // TODO Auto-generated method stub
